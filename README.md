@@ -17,9 +17,9 @@ I have included the Java export of the file for ease of review, however from my 
 
 1) Open Chrome and navigate to https://www.selenium.dev/selenium-ide/.
 2) Download and install the Selenium IDE Chrome extension, ensuring to pin it to the extension toolbar for ease of access.
-3) Download and save the .side file for the front end tests for use later.
+3) Download and save the AmplienceFrontEndTestSuite.side file for the front end tests for use later.
 4) Open Selenium IDE via chrome by clicking on the icon in the extension toolbar.
-5) When prompted click to Open an existing project and navigate to the location of the .side file.
+5) When prompted, click to Open an existing project and navigate to the saved AmplienceFrontEndTestSuite.side file.
 6) Once opened, the tests will be imported into Selenium IDE for execution and will also open the possibility of changing values utilsing the appropriate fields. 
 7) Ensure the URL located at the top of the programe is set to https://github.com/6wl
 8) To run all the tests in the suite, click on the Run All Tests button (Ctrl + Shift + R)
