@@ -1,0 +1,339 @@
+{
+  "id": "c263bdf6-5758-44e5-9352-13530bb620f2",
+  "version": "2.0",
+  "name": "Amplience",
+  "url": "https://github.com/6wl",
+  "tests": [{
+    "id": "9dfa19df-2213-4e6b-8e46-00afb4e74dab",
+    "name": "Front End Navigation Full Name Verification",
+    "commands": [{
+      "id": "7d5c4af2-7544-44ec-8a9c-77ff376164b1",
+      "comment": "",
+      "command": "open",
+      "target": "https://github.com/6wl",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "94b47a3b-1c67-4a54-ae34-8ae8a823cbba",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "976x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d6ed25b6-adbc-4ab0-9c8e-3d4adf8b7673",
+      "comment": "Verify command included to ensure there is a value regardless of true or false result against variable.",
+      "command": "verifyText",
+      "target": "css=.p-name",
+      "targets": [
+        ["css=.p-name", "css:finder"],
+        ["xpath=//main[@id='js-pjax-container']/div[2]/div/div/div/div[2]/div[2]/h1/span", "xpath:idRelative"],
+        ["xpath=//h1/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Gregory Loscombe')]", "xpath:innerText"]
+      ],
+      "value": "Gregory Loscombe"
+    }, {
+      "id": "e3a13e2c-6162-41e8-bff8-24b4803106c7",
+      "comment": "Assert command included to prove a true or false result based on the input variable.",
+      "command": "assertText",
+      "target": "css=.p-name",
+      "targets": [
+        ["css=.p-name", "css:finder"],
+        ["xpath=//main[@id='js-pjax-container']/div[2]/div/div/div/div[2]/div[2]/h1/span", "xpath:idRelative"],
+        ["xpath=//h1/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Gregory Loscombe')]", "xpath:innerText"]
+      ],
+      "value": "Gregory Loscombe"
+    }, {
+      "id": "ee8e6818-1a69-4ba1-948f-c4638981edc5",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "11eb96a0-dd3b-4f71-9705-ff1816a35c89",
+    "name": "Front End Navigation Location Verification",
+    "commands": [{
+      "id": "43d8d5e3-091c-434c-bc54-62c98cf4fd45",
+      "comment": "",
+      "command": "open",
+      "target": "https://github.com/6wl",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b772018-4e41-41a3-b6d4-ea9424c5c0ed",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "976x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3e68ca0e-ddd6-442e-a5d0-ef7b303a6211",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Learn how we count contributions",
+      "targets": [
+        ["linkText=Learn how we count contributions", "linkText"],
+        ["css=.float-left > .Link--muted", "css:finder"],
+        ["xpath=//a[contains(text(),'Learn how we count contributions')]", "xpath:link"],
+        ["xpath=//main[@id='js-pjax-container']/div[2]/div/div[2]/div[2]/div/div[2]/div/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://docs.github.com/articles/why-are-my-contributions-not-showing-up-on-my-profile')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Learn how we count contributions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "faed0226-97a9-4cc0-abd1-c3bf3fe156e3",
+      "comment": "Verify command included to ensure there is a value regardless of true or false result against variable.",
+      "command": "verifyText",
+      "target": "css=.p-label",
+      "targets": [
+        ["css=.p-label", "css:finder"],
+        ["xpath=//main[@id='js-pjax-container']/div[2]/div/div/div/div[3]/div[2]/ul/li/span", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Manchester')]", "xpath:innerText"]
+      ],
+      "value": "Manchester"
+    }, {
+      "id": "c15f8975-5eda-440d-85c2-d5cb6dc81b1e",
+      "comment": "Assert command included to prove a true or false result based on the input variable.",
+      "command": "assertText",
+      "target": "css=.p-label",
+      "targets": [
+        ["css=.p-label", "css:finder"],
+        ["xpath=//main[@id='js-pjax-container']/div[2]/div/div/div/div[3]/div[2]/ul/li/span", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Manchester')]", "xpath:innerText"]
+      ],
+      "value": "Manchester"
+    }, {
+      "id": "5645d13d-ab86-4c97-a038-365f034e3f7d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e4219c79-0b15-46d1-beb7-450418e9be5b",
+    "name": "Front End Navigation Followers Verification",
+    "commands": [{
+      "id": "bffc9c00-e2ef-485c-9525-6f7127ac5544",
+      "comment": "",
+      "command": "open",
+      "target": "https://github.com/6wl",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "24bd8347-194c-4bb8-9c19-141243812bc2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "976x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "94873dcd-3a63-4e97-afc3-c27511c3ecad",
+      "comment": "Verify field included to ensure there is a value regardless if it matches the input variable.",
+      "command": "verifyText",
+      "target": "css=.mb-3 > .Link--secondary:nth-child(1)",
+      "targets": [
+        ["css=.mb-3 > .Link--secondary:nth-child(1)", "css:finder"],
+        ["xpath=//main[@id='js-pjax-container']/div[2]/div/div/div/div[3]/div[2]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/6wl?tab=followers')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": "13 followers"
+    }, {
+      "id": "e2202245-6c09-4685-bf3b-ef61366dd6e0",
+      "comment": "Assert command included to trigger a true or false result based on the variable required. As the follower count could change regularly, having an asset command in would lead to multiple fails so it would be best to disable/remove this step.",
+      "command": "assertText",
+      "target": "css=.mb-3 > .Link--secondary:nth-child(1)",
+      "targets": [
+        ["css=.mb-3 > .Link--secondary:nth-child(1)", "css:finder"],
+        ["xpath=//main[@id='js-pjax-container']/div[2]/div/div/div/div[3]/div[2]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/6wl?tab=followers')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": "13 followers"
+    }, {
+      "id": "bf76de17-6822-437b-a93a-56aafa3c2992",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "5dbe7dc0-a48e-416c-b253-de14567a78c0",
+    "name": "Front End Navigation Following Check",
+    "commands": [{
+      "id": "33f62429-4759-47eb-bc6f-0c8dff0ccda4",
+      "comment": "",
+      "command": "open",
+      "target": "https://github.com/6wl",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ccd7ef76-8006-44d4-87bb-892164570cd5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "976x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c0e6c91b-58e3-4443-9e56-8617e947d8af",
+      "comment": "Verify field included to ensure there is a value regardless if it matches the input variable.",
+      "command": "verifyText",
+      "target": "css=.Link--secondary:nth-child(2)",
+      "targets": [
+        ["css=.Link--secondary:nth-child(2)", "css:finder"],
+        ["xpath=//main[@id='js-pjax-container']/div[2]/div/div/div/div[3]/div[2]/div[2]/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/6wl?tab=following')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/a[2]", "xpath:position"]
+      ],
+      "value": "29 following"
+    }, {
+      "id": "c466cd50-d281-46d6-aa43-611cbb20fcd7",
+      "comment": "Assert command included to trigger a true or false result based on the variable required. As the Following count could change regularly, having an asset command in would lead to multiple fails so it would be best to disable/remove this step.",
+      "command": "assertText",
+      "target": "css=.Link--secondary:nth-child(2)",
+      "targets": [
+        ["css=.Link--secondary:nth-child(2)", "css:finder"],
+        ["xpath=//main[@id='js-pjax-container']/div[2]/div/div/div/div[3]/div[2]/div[2]/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/6wl?tab=following')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/a[2]", "xpath:position"]
+      ],
+      "value": "29 following"
+    }, {
+      "id": "268ed68e-db9d-41e7-bb76-59af9fb15909",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1d4c4dce-f3e2-4811-bf36-66d0ead6526a",
+    "name": "Front End Navigation Public Repos Verification",
+    "commands": [{
+      "id": "cf6aad28-5e75-4ff3-88de-805ba8f40f01",
+      "comment": "",
+      "command": "open",
+      "target": "https://github.com/6wl",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e89bb03-4b0b-4b99-b7c0-8899166386cd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "976x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5fac4cd-f31d-4faf-9652-7db9bf7611ad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.width-full .UnderlineNav-item:nth-child(2)",
+      "targets": [
+        ["css=.width-full .UnderlineNav-item:nth-child(2)", "css:finder"],
+        ["xpath=//main[@id='js-pjax-container']/div/div/div/div[2]/div/nav/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/6wl?tab=repositories')]", "xpath:href"],
+        ["xpath=//nav/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c316018f-3d89-4ac8-bb0d-4d57a1fcba37",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=configs",
+      "targets": [
+        ["linkText=configs", "linkText"],
+        ["css=.col-12:nth-child(1) > .Box .text-bold", "css:finder"],
+        ["xpath=//main[@id='js-pjax-container']/div[2]/div/div[2]/div[2]/div/div/div/ol/li/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/6wl/configs')]", "xpath:href"],
+        ["xpath=//li/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'configs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfe66667-9c30-460e-b406-0da920dd75b0",
+      "comment": "Verify command included to ensure there is a value regardless of true or false result against variable.",
+      "command": "verifyText",
+      "target": "css=.width-full .selected > .Counter",
+      "targets": [
+        ["css=.width-full .selected > .Counter", "css:finder"],
+        ["xpath=//main[@id='js-pjax-container']/div/div/div/div[2]/div/nav/a[2]/span", "xpath:idRelative"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'7')]", "xpath:innerText"]
+      ],
+      "value": "7"
+    }, {
+      "id": "65da7b1d-a30d-4c2a-946e-71cee25b7932",
+      "comment": "Assert command included to prove a true or false result based on the input variable.",
+      "command": "assertText",
+      "target": "css=.width-full .selected > .Counter",
+      "targets": [
+        ["css=.width-full .selected > .Counter", "css:finder"],
+        ["xpath=//main[@id='js-pjax-container']/div/div/div/div[2]/div/nav/a[2]/span", "xpath:idRelative"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'7')]", "xpath:innerText"]
+      ],
+      "value": "7"
+    }, {
+      "id": "c57d7114-f3a0-4066-96af-8c875e2a7f99",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "7c40b364-4267-48ab-a95a-695626ca2337",
+    "name": "Front End Navigation Public Gists Verification",
+    "commands": [{
+      "id": "93acefbf-63fd-43c8-9c52-ff37be390141",
+      "comment": "Public Gists are currently not present on the front end UI, so the test cannot currently be configured.",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f06e52a3-0b0d-4c60-b0aa-67732231d5b5",
+    "name": "Front End Navigation Company Verification",
+    "commands": [{
+      "id": "960c42f5-4d5f-4e87-9a06-e3d80f2e02f3",
+      "comment": "Company Field is currently not present on the front end UI, so the test cannot currently be configured.",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8c637c5f-8875-4bef-b012-2b3f507c6c25",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }, {
+    "id": "a0c40853-e869-4d99-8689-e60ea9b1d590",
+    "name": "Front End Test Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e4219c79-0b15-46d1-beb7-450418e9be5b", "5dbe7dc0-a48e-416c-b253-de14567a78c0", "9dfa19df-2213-4e6b-8e46-00afb4e74dab", "11eb96a0-dd3b-4f71-9705-ff1816a35c89", "1d4c4dce-f3e2-4811-bf36-66d0ead6526a"]
+  }, {
+    "id": "c26f481b-06b0-4896-9269-c028905605ec",
+    "name": "Back End Test Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://api.github.com/users", "https://github.com/6wl"],
+  "plugins": []
+}
