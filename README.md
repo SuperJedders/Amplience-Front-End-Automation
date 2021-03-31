@@ -1,4 +1,4 @@
-# Amplience-Front-End-Automation
+# Amplience-Technical Assessement Task
 Automation Code for the Front End Gui Amplience Tech Application
 
 Task 1: API Back End Coding
