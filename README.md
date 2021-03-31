@@ -4,20 +4,20 @@ Automation Code for the Front End Gui Amplience Tech Application
 Task 1: API Back End Coding
 For this task I took the time to extensively utilise every resource available to me in an attempt to create a solution that met the requirements of the task. This involved me exploring multiple coding languages, tools, forums and guides in addition to utilising the knowledge and expertise of former colleagues to better my own understanding and work through ideas with them. In spite of this, I did not have the knowledge to apply the technical application effeciently and while I was able to create some code to open a browser that directed to the API webpage this was not, in my opinion, sufficient enough but I have included it below;
 
-Imports System.Text
-Imports System.Text.Json.Serialization
-Imports OpenQA.Selenium
-Imports OpenQA.Selenium.Chrome
-Imports OpenQA.Selenium.Support.UI
+    Imports System.Text
+    Imports System.Text.Json.Serialization
+    Imports OpenQA.Selenium
+    Imports OpenQA.Selenium.Chrome
+    Imports OpenQA.Selenium.Support.UI
 
-Module BackEnd
+    Module BackEnd
     Public Sub Main(args As String())
         'Open Chrome to Specified URL
         Process.Start("C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe", "https://api.github.com/users/6wl")
 
     End Sub
 
-End Module
+    End Module
 
 However, I have included my theoretical understanding of the task to showcase that while I did not know how to execeute the task I understand what is required and what would need to be created.
 
